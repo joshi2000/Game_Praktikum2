@@ -10,11 +10,19 @@
     <sprite>sprites\spr_platformH</sprite>
     <sprite>sprites\spr_portal</sprite>
     <sprite>sprites\spr_wall</sprite>
-    <sprite>sprites\spr_player</sprite>
     <sprite>sprites\spr_enemy</sprite>
     <sprite>sprites\spr_player_b</sprite>
     <sprite>sprites\spr_powerup</sprite>
     <sprite>sprites\spr_save</sprite>
+    <sprites name="player">
+      <sprite>sprites\spr_player</sprite>
+      <sprite>sprites\player_jump</sprite>
+      <sprite>sprites\player_stand</sprite>
+      <sprite>sprites\player_walk</sprite>
+      <sprite>sprites\player_shoot</sprite>
+      <sprite>sprites\shoot</sprite>
+      <sprite>sprites\player_walk_left</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
