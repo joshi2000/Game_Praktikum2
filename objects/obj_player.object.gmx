@@ -74,7 +74,7 @@ key_down = 0;
 key_left = -keyboard_check(vk_left);
 key_jump = keyboard_check_pressed(vk_space);
 key_down = keyboard_check(vk_down);
-key_dash = keyboard_check_pressed(vk_alt);
+
 
 //Vertical Collision
 if (place_meeting(x,y+vsp,obj_wall))
