@@ -25,6 +25,7 @@
       <sprite>sprites\player_shoot_gif</sprite>
       <sprite>sprites\player_walk_shoot</sprite>
       <sprite>sprites\player_player_dash</sprite>
+      <sprite>sprites\sprite20_player_dash</sprite>
     </sprites>
     <sprites name="Enemy_1">
       <sprite>sprites\spr_enemy</sprite>
