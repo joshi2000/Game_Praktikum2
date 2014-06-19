@@ -26,11 +26,5 @@
     <frame index="4">images\player_shoot_once_4.png</frame>
     <frame index="5">images\player_shoot_once_5.png</frame>
     <frame index="6">images\player_shoot_once_6.png</frame>
-    <frame index="7">images\player_shoot_once_7.png</frame>
-    <frame index="8">images\player_shoot_once_8.png</frame>
-    <frame index="9">images\player_shoot_once_9.png</frame>
-    <frame index="10">images\player_shoot_once_10.png</frame>
-    <frame index="11">images\player_shoot_once_11.png</frame>
-    <frame index="12">images\player_shoot_once_12.png</frame>
   </frames>
 </sprite>

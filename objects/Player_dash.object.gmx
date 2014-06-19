@@ -25,7 +25,29 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//nothing
+            <string>///Initialize Variables
+grav = 0.2;
+hsp = 0;
+hsp_carry = 0;
+vsp = 0;
+movespeed = 4;
+b = -1;
+bullets = 1;
+dashspeed = 9;
+
+jumpspeed_normal = 7;
+jumpspeed_powerup = 10;
+
+jumpspeed = jumpspeed_normal
+instance_create(x,y,obj_view);
+
+if (global.checkpointR == room)
+{
+    x = global.checkpointx;
+    y = global.checkpointy;
+}
+
+key_down = 0;
 </string>
           </argument>
         </arguments>
@@ -48,38 +70,16 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (image_xscale)
+            <string>
+if (image_xscale)
 {
-    hspeed = 6;
+    hspeed = 7;
 }
 else
 {
-    hspeed = -6;
+    hspeed = -7;
 }
 
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="4" ename="obj_wall">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>//nothing
 </string>
           </argument>
         </arguments>

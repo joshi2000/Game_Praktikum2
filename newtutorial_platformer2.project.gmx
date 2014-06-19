@@ -31,6 +31,8 @@
       <sprite>sprites\spr_enemy</sprite>
       <sprite>sprites\enemy_walk</sprite>
     </sprites>
+    <sprite>sprites\ground</sprite>
+    <sprite>sprites\ground_up</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -49,6 +51,7 @@
     <object>objects\obj_view</object>
     <object>objects\obj_player_shoot</object>
     <object>objects\Player_dash</object>
+    <object>objects\object11</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_initialize</room>

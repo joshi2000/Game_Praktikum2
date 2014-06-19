@@ -126,8 +126,8 @@ if (grounded)
     }
     else
     {
-        if (sprite_index!=player_walk) image_index = 0;
-        sprite_index=player_walk;
+        if (sprite_index!=player_walk_shoot) image_index = 0;
+        sprite_index=player_walk_shoot;
         image_speed = 0.2;
     }
 }

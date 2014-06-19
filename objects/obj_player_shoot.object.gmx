@@ -25,22 +25,43 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (bullets = 1)
+            <string>   
+if (hsp == 0)
 {
-    b =instance_create(x+5,y-4,bullet);
-    bullets = -1;
-    b.speed = 6;
-    if (image_xscale = 1) 
+    if (bullets = 1)
     {
-        b.direction = 0;
-    }
-    else
-    {
-        b.direction = 180;
+        b =instance_create(x+5,y-4,bullet);
+        bullets = -1;
+        b.speed = 6;
+        if (image_xscale = 1) 
+        {
+            b.direction = 0;
+        }
+        else
+        {
+            b.direction = 180;
+        }
     }
 }
-
-
+if (sprite_index!= player_walk_shoot)
+{
+    if (bullets = 1)
+    {
+        
+        image_speed = 0.2
+        b =instance_create(x+5,y-4,bullet);
+        bullets = -1;
+        b.speed = 6;
+        if (image_xscale = 1) 
+        {
+            b.direction = 0;
+        }
+        else
+        {
+            b.direction = 180;
+        }
+ }
+ }   
 </string>
           </argument>
         </arguments>
