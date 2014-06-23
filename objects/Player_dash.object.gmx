@@ -73,11 +73,11 @@ key_down = 0;
             <string>
 if (image_xscale)
 {
-    hspeed = 7;
+    hspeed = 5;
 }
 else
 {
-    hspeed = -7;
+    hspeed = -5;
 }
 
 </string>

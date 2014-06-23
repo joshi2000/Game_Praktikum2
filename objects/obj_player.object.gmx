@@ -30,12 +30,12 @@ grav = 0.2;
 hsp = 0;
 hsp_carry = 0;
 vsp = 0;
-movespeed = 4;
+movespeed = 2.5;
 b = -1;
 bullets = 1;
 dashspeed = 9;
 
-jumpspeed_normal = 7;
+jumpspeed_normal = 5;
 jumpspeed_powerup = 10;
 
 jumpspeed = jumpspeed_normal
@@ -113,7 +113,7 @@ if (key_jump)
 {
     if (grounded)
     {
-        vsp = -8;
+        vsp = -6;
     }
 }
 
@@ -128,7 +128,7 @@ if (grounded)
     {
         if (sprite_index!=player_walk_shoot) image_index = 0;
         sprite_index=player_walk_shoot;
-        image_speed = 0.2;
+        image_speed = 0.1;
     }
 }
 else
@@ -212,7 +212,7 @@ if (place_meeting(x,y,obj_enemy))
           <argument>
             <kind>1</kind>
             <string>{
-    image_speed = 0.2
+    image_speed = 0.15
     instance_change(Player_dash,false)
 }
 </string>
